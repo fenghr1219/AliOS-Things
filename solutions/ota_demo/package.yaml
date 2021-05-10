@@ -1,6 +1,6 @@
 
 name: ota_demo
-version: rel_3.3.0                                   # <必选项> 组件版本号
+version: master                                   # <必选项> 组件版本号
 description: OTA demo for developers
 
 type: solution
@@ -15,16 +15,16 @@ solution:
 #   - minilibc: v7.2.0
 #   - aos: >=v7.2.0
 depends:
-  - ota: rel_3.3.0
-  - cjson: rel_3.3.0
-  - cli: rel_3.3.0
-  - netmgr: rel_3.3.0
-  - lwip: rel_3.3.0
-  - haas100: rel_3.3.0
-  - netmgr: rel_3.3.0
-  - ulog: rel_3.3.0
-  - uservice: rel_3.3.0
-  - wifi: rel_3.3.0
+  - ota: master
+  - cjson: master
+  - cli: master
+  - netmgr: master
+  - lwip: master
+  - haas100: master
+  - netmgr: master
+  - ulog: master
+  - uservice: master
+  - wifi: master
 
 # build_config:
 #   include:
